@@ -1,0 +1,6 @@
+tmp
+build/iphone/**
+build/android/**
+Resources/alloy/controllers/**
+Resources/alloy/models/**
+
