@@ -12,7 +12,7 @@ exports.definition = {
         "settings" : {
             STACKMOB_APP_NAME : 'people_interact',
             STACKMOB_USER_OBJECT_NAME : 'user',
-            STACKMOB_MODEL_NAME : 'book',
+            STACKMOB_MODEL_NAME : 'user',
         }
     },
 
@@ -21,6 +21,20 @@ exports.definition = {
             url : function() {
                 return "http://stackmob.mob1.stackmob.com/api/0/" + this.config.settings.STACKMOB_APP_NAME + "/";
             },
+            login : function(_opts) { debugger;
+
+                var model = this;
+                model.sync('login', model, {
+                    success : function(data) { debugger;
+                        Ti.API.info("login " + JSON.stringify(data));
+                        _opts.success && _opts.success(new Model(data));
+                    },
+                    error : function(data) {
+                        _opts.error && _opts.error(data);
+                    }
+                });
+
+            }
         });
         // end extend
 

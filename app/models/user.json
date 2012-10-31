@@ -1,7 +1,0 @@
-{
-    "defaults": {},
-    "adapter": {
-        "type": "stackmob",
-        "name": "users"
-    }
-}
