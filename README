@@ -1,5 +1,5 @@
 to use stackmob sync adapter, you must set the keys in the tiapp.xml
 
     <!-- stackmob keys -->
-    <property name="STACKMOB_PUBLIC_KEY" type="string">6a2e44eb-30a7-48c4-a7e1-586afdb7f83d</property>
-    <property name="STACKMOB_PRIVATE_KEY" type="string">e8a60d3a-e650-4ced-85af-348a6cedd321</property>
+    <property name="STACKMOB_PUBLIC_KEY" type="string">YOUR KEY</property>
+    <property name="STACKMOB_PRIVATE_KEY" type="string">YOUR PRIVATE KEY</property>
