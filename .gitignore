@@ -1,6 +1,7 @@
 tmp
 build/iphone/**
 build/android/**
-Resources/alloy/controllers/**
-Resources/alloy/models/**
-
+Resources/alloy
+Resources/iphone
+Resources/alloy.js
+Resources/app.js
